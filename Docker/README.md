@@ -1,5 +1,4 @@
-# Desafio Kubernetes
-
+# Desafio Docker
 Este é um projeto desenvolvido como parte de um desafio relacionado ao Kubernetes.
 
 ## Instalação e Uso
