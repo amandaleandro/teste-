@@ -11,7 +11,6 @@ docker build -t $NOME_IMAGEM:$TAG .
 if [ $? -eq 0 ]; then
     echo "Imagem Docker construída com sucesso: $NOME_IMAGEM:$TAG"
 
-    # Executar o contêiner Docker
     echo "Iniciando o contêiner Docker..."
     docker run -d -p 9090:3000 --name $Nome_Container  $NOME_IMAGEM:$TAG
 else
